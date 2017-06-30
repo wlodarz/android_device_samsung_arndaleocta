@@ -1,1 +1,1 @@
-add_lunch_combo cm_arndaleocta-userdebug
+add_lunch_combo lineage_arndaleocta-userdebug
