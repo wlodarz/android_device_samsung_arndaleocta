@@ -29,10 +29,10 @@ TARGET_SCREEN_WIDTH := 1024
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.primary.universal5420
+    audio.primary.arndaleocta
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/mixer_paths.xml:system/etc/mixer_paths.xml
+# PRODUCT_COPY_FILES += \
+#     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -58,9 +58,9 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.universal5420 \
+    fstab.arndaleocta \
     init.target.rc \
-    ueventd.universal5420.rc
+    ueventd.arndaleocta.rc
 
 # call dalvik heap and hwui config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
